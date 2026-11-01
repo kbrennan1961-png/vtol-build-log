@@ -1,0 +1,28 @@
+# version
+# dump
+diff
+
+# mixer
+mixer MIXER_QUADPLANE
+map quadpptm
+
+# resources
+resource MOTOR 1 B02
+resource MOTOR 2 B03
+resource MOTOR 3 A03
+resource MOTOR 4 A02
+resource SERVO 5 B04
+resource SERVO 6 B05
+
+# pid
+profile 1
+
+pid_profile
+pid
+pids
+P 1 42 30
+I 1 45 20
+D 1 25 10
+
+# profile
+profile 2
